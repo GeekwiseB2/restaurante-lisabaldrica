@@ -4,14 +4,208 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Restaurante</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="
+https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+<!-- nav begins	 -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Home</a></li>
+				<li><a href="#">Our Story</a></li>
+				<li><a href="#">Review</a></li>
+				<li><a href="#">Menu</a></li>
+				<li><a href="#">Conact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- Carousel -->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+		<div class="item active wood-img">
+		  <div class="carousel-caption">
+		    <img src="img/logo-01.png" alt="basic logo" class="img-responsive center-block" id="basic-logo">
+		  </div>
+		</div>
+		<div class="item table-seating-img">
+		  <div class="carousel-caption">
+    		<h3>Eat Local</h3>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<button class="btn btn-default btn-lg" type="submit">Learn More</button>
+  		</div>
+		</div>
+		<div class="item farm-img">
+		  <div class="carousel-caption">
+    		<h3>From Farm to Table</h3>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+				<button class="btn btn-default btn-lg" type="submit">Browse Gallery</button>
+  		</div>
+		</div>
+  </div><!-- carosel end -->
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+	<!-- our story	 -->
+	<div class="container" id="our-story-wrapper">
+		<div class="row">
+			<div class="col-md-3">
+				<h1 class="text-center" id="our-story">Our Story</h1>
+				<p class="text-center" id="our-story-subtext">One Man. One Dream.</p>
+			</div>
+			<div class="col-md-offset-3 col-md-6">
+				<h1 class="text-center" id="year_text">1989</h1>
+				<p id="para_copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dicta exercitationem pariatur dolores odio quam amet ipsa ut reprehenderit. Optio dicta exercitationem pariatur dolorest.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dicta exercitationem pariatur dolores odio quam amet ipsa ut reprehenderit. Optio dicta exercitationem pariatur dolores odio quam amet ipsa ut reprehenderit.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dicta exercitationem pariatur dolores odio quam amet ipsa ut reprehenderit. Optio dicta exercitationem pariatur dolores odio quam amet ipsa ut reprehenderit.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dicta exercit ationem pariatur dolores odio quam amet ipsa ut reprehenderit. Optio dicta exercitationem pariatur dolorest.</p>
+			</div>
+		</div>
+	</div>
+		<!-- fresno bee -->
+	<div class="container-fluid" id="bee_background">
+		<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div id="beebox">
+						<h1 class="beehead">Fresno Bee</h1>
+						<p class="beetext">"The freshest and the best ingredients come together to make some of the best food I have ever ate. You can really taste the Central Valley in every bite."</p>
+					</div>
+				</div>
+		</div>
+	</div>
+		<!-- menu -->
+	<div class="container-fluid" id="menu_background">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<h1 class="text-center" id="menu_heading">Menu</h1>
+					<ul class="nav nav-tabs">
+  					<li role="presentation" class="active"><a href="#">Appetizer</a></li>
+  					<li role="presentation" class="active"><a href="#">Lunch</a></li>
+  					<li role="presentation" class="active"><a href="#">Dinner</a></li>
+						<li role="presentation" class="active"><a href="#">Dessert</a></li>
+					</ul>
+					<div class="row">
+  					<div class="col-sm-6 col-md-4 nopadding">
+    					<div class="thumbnail">
+      					<img class="img-responsive" src="img/dip.jpg" alt="dipping">
+      						<div class="caption">
+        					<h3>Appetizer 1</h3>
+        					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, deserunt! Facilis deserunt libero ipsa aut ipsum ratione vel blanditiis mollitia quia.</p>
+      						</div>
+    					</div>
+					  </div>
+						<div class="col-sm-6 col-md-4 nopadding">
+    					<div class="thumbnail">
+      					<img class="img-responsive" src="img/eggplant.jpg" alt="vegetable">
+      						<div class="caption">
+        					<h3>Appetizer 2</h3>
+        					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, deserunt! Facilis deserunt libero ipsa aut ipsum ratione vel blanditiis mollitia quia.</p>
+      						</div>
+    					</div>
+					  </div>
+						<div class="col-sm-6 col-md-4 nopadding">
+    					<div class="thumbnail">
+      					<img class="img-responsive" src="img/meat.jpg" alt="beef">
+      						<div class="caption">
+        					<h3>Appetizer 3</h3>
+        					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, deserunt! Facilis deserunt libero ipsa aut ipsum ratione vel blanditiis mollitia quia.</p>
+      						</div>
+    					</div>
+					  </div>
+						<div class="col-sm-6 col-md-4 nopadding">
+    					<div class="thumbnail">
+      					<img class="img-responsive" src="img/bruschetta.jpg" alt="bread">
+      						<div class="caption">
+        					<h3>Appetizer 4</h3>
+        					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, deserunt! Facilis deserunt libero ipsa aut ipsum ratione vel blanditiis mollitia quia.</p>
+      						</div>
+    					</div>
+					  </div>
+					</div>
+				</div>
+			</div>
+	</div>
+		<!-- menu ends-->
+		<!-- footer start-->
+<footer class="container-fluid">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<h1 class="contacthead">Contact Us</h1>
+			<p class="contactcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+		<!-- contact-->
+	<div class="container-fluid" id="contact-background">
+		<div class="container">
+			<div class="row">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-xs-12" id="formbox">
+				<h5>Name:</h5>
+				<input type="text" class="form-control" placeholder="Text input">
+				<h5>Email:</h5>
+				<input type="text" class="form-control" placeholder="Text input">
+				<h5>Subject:</h5>
+				<input type="text" class="form-control" placeholder="Text input">
+				<h5>Message:</h5>
+				<textarea class="form-control" rows="3"></textarea>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+						</label>
+				</div>
+			</div>
+			<div class="col-md-6 col-xs-12 pull-right">
+				<address>
+					<h4>Restaurante</h4>
+					123 N. Fulton Street<br>
+					Fresno, CA 93728<br>
+					P. (123) 456-7890
+				</address>
+				<iframe class="img-responsive"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.604061093928!2d-119.78796568581143!3d36.73206927923368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809460a5cfdf4b6b%3A0xab092ce50c284a0a!2sBitwise+Industries!5e0!3m2!1sen!2sus!4v1473289467118" width="360" height="160" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+	</div
+	</div>
+</footer>
+	<!-- footer end	 -->
 
 	<!-- javascript	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

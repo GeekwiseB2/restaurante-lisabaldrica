@@ -1,0 +1,203 @@
+/*Nav*/
+@import 'https://fonts.googleapis.com/css?family=Lobster|Raleway';
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+.navbar-brand {
+  background-image: url("../img/name-01.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  min-height: 10px;
+  width: 200px;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+  background-color: rgba(0,0,0,.4);
+}
+/*carosel*/
+.item {
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+.carousel-caption {
+  margin-bottom: 100px;
+
+}
+.wood-img {
+  background-image: url("../img/wood-2.jpg");
+}
+#basic-logo {
+  width: 300px;
+  margin-bottom: 20px;
+}
+.table-seating-img {
+  background-image: url("../img/restaurant-2.jpg")
+}
+.farm-img {
+  background-image: url("../img/farm-2.jpg")
+}
+.btn-default {
+  background-color: #f8512f;
+  color: #fff;
+  border: none;
+}
+.btn-default:hover {
+  background-color: #d34326;
+}
+c
+#our-story-wrapper {
+  min-height: 80vh;
+}
+#our-story {
+  font-family: 'Lobster', cursive;
+  color: #f8512f;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 54px;
+}
+#our-story-subtext {
+  font-family: 'Raleway', sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 17px;
+}
+#para_copy {
+  margin-top: 30px;
+}
+#year_text {
+  position: absolute;
+  z-index: -2;
+  font-family: 'Playfair Display', serif;
+  color: rgba(149, 147, 147, 0.2);
+  font-size: 220px;
+}
+/*fresno bee*/
+#bee_background {
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  z-index: -4;
+  min-height: 60vh;
+  margin-top: 30px;
+}
+#beebox {
+  z-index: -2;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  background-color: rgba(20, 30, 30, 0.6);
+  filter: alpha(opacity=60);
+}
+.beehead {
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  font-size: 46px;
+  text-align: center;
+  color: #f8512f;
+  padding-top: 10px;
+}
+.beetext {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+/*menu*/
+#menu_background{
+  background-image: url('../img/black_linen.png');
+  background-size: cover;
+  min-height: 80vh;
+}
+#menu_heading {
+  font-family: 'Lobster', cursive;
+  font-size: 54px;
+  color: #fff;
+  text-transform: capitalize;
+}
+ul {
+  text-decoration: none;
+}
+.nav-tabs>li {
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  text-transform: capitalize !important;
+  text-align: center;
+  width: 200px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover .nav-tabs>li>a {
+  color: #f8512f;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.thumbnail>.caption>p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  text-align: justify;
+}
+.h3, h3 {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-align: center !important;
+}
+.nopadding {
+  display: block;
+  width: 200px;
+  padding: -2 !important;
+  border-radius: 0px !important;
+}
+.thumbnail {
+  width: 119%;
+  padding: 10px;
+  border: 0px;
+}
+/*footer*/
+footer {
+  background-color: #f8512f;
+}
+.contacthead {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff;
+}
+.contactcopy {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+}
+#formbox {
+  border: 1px;
+}
+h5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #fff;
+}
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 10px;
+}
+address {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+}
